@@ -1,4 +1,4 @@
-(defproject audiogum/dynamo-embedded-clj "3.0.0"
+(defproject audiogum/dynamo-embedded-clj "3.0.1-SNAPSHOT"
   :description "Embedded dynamodb for clojure"
   :url "https://github.com/bnwgroupltd/dynamo-embedded-clj"
   :license {:name "Eclipse Public License"
