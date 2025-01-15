@@ -17,14 +17,9 @@ Version compatibility guide:
   - Latest DynamoDBLocal version
 
 ```
-org.clojars.bigsy/dynamo-embedded-clj {:mvn/version "1.1.8"}
-org.clojars.bigsy/dynamo-embedded-clj {:mvn/version "2.0.2"}
-org.clojars.bigsy/dynamo-embedded-clj {:mvn/version "3.0.0"} 
- 
-```
 
 ## Usage
-https://clojars.org/org.clojars.bigsy/dynamo-embedded-clj/versions/
+[audiogum/dynamo-embedded-clj "3.0.0"]
 
 If using Cognitect aws dynamodb client you may find these useful for type conversions https://github.com/Bigsy/clj-dynamo-helpers
 
@@ -66,6 +61,7 @@ config vector is optional - if you don't pass it default it is inMemory and port
 ```
 
 ### Other useful clojure wrapped embedded testing libs
+Originally forked from Bigsy
 * https://github.com/Bigsy/pg-embedded-clj
 * https://github.com/Bigsy/redis-embedded-clj
 * https://github.com/Bigsy/s3-clj
