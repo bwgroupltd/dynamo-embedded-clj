@@ -17,7 +17,7 @@
                    ["deploy" "releases"]
                    ["change" "version" "leiningen.release/bump-version" "patch"]
                    ["vcs" "commit"]
-                   ["vcs" "push" "origin" "main"]]
+                   ["vcs" "push" "origin" "master"]]
 
   :plugins [[s3-wagon-private "1.3.4"]]
 
