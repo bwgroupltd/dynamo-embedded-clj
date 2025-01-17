@@ -1,6 +1,10 @@
 # dynamo-embedded-clj
 
 Embedded dynamo-local for clojure with support for apple M1 macs
+
+Use [audiogum/dynamo-embedded-clj "0.1.4"] when you get issues using 3.0.0 its related to Jetty versions.
+
+
 # Note
 
 Version compatibility guide:
